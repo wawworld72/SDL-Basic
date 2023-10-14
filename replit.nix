@@ -1,0 +1,1 @@
+{ pkgs }: with pkgs; { deps = [ clang_14 ccls gdb gnumake rnix-lsp taplo pkgs.SDL2 pkgs.SDL2_image pkgs.SDL2_ttf pkgs.SDL2_gfx pkgs.SDL2_sound pkgs.SDL2_mixer]; env = { CPLUS_INCLUDE_PATH = lib.makeSearchPath "include/SDL2" [ SDL2.dev SDL2_image SDL2_ttf SDL2_net SDL2_gfx SDL2_sound SDL2_mixer  ]; }; }
