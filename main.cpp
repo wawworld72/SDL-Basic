@@ -120,7 +120,7 @@ bool init()
 			pTempSurface = TTF_RenderUNICODE_Shaded(g_pFont, (Uint16*)L"한글 스쳐",
 				SDL_Color{ 0, 0, 255 }, SDL_Color{ 255, 255, 255 });
 #else
-			pTempSurface = TTF_RenderUTF8_Shaded(g_pFont, "한글 212 출력 텍스쳐",
+			pTempSurface = TTF_RenderUTF8_Shaded(g_pFont, "한글 1212 출력 텍스쳐",
 				SDL_Color{ 0, 0, 255 }, SDL_Color{ 255, 255, 255 });
 #endif
 			if (pTempSurface == NULL)
